@@ -1,5 +1,6 @@
 name: GitHub CI
 on:
+  #添加workflow_dispatch之后，手工修改了项目代码，例如readme.md，就会自动触发运行本action，编译文件
   #workflow_dispatch:
   push:
     branches:
